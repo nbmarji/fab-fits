@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+/* CSS homepage */
+body, html {
+	height: 100%;
+
+}
+body{
+	font-family: 'Cormorant Garamond', serif !important;
+}
+
+.carousel-inner>.carousel-item>img, .carousel-inner>.carousel-item>a>img {
+display: block;
+height: auto;
+line-height: 1;
+width: 100%; 
+}
+
+.carouselcontainer{
+	padding-right: 0; 
+	padding-left: 0;
+	width: 101%;
+}
+
+.jumbotron {
+	display: flex;
+	color: black;
+    background-color: transparent;
+    margin:auto;
+} 
+
+.p1page {
+	position: relative;
+	overflow: hidden;
+}
+.instagrambox {
+    width: 100%; 
+    background-color: white; 
+    opacity: 0.65;
+}
+
+.instagrambutton {
+    background-color: white;
+    color: black;
+    padding: 18px;
+    font-size: 25px;
+    margin-top: 230px;
+    margin-bottom: 230px;
+    letter-spacing: 10px;
+}
+
+/* parallax class taken from https://www.w3schools.com/howto/howto_css_parallax.asp */
+.parallax {
+	/* The image used */
+	background-image: url("./assets/paris.jpg");
+	opacity: 0.7;
+	height: 50%; 
+    padding: 9%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+
+.parallax2 {
+  /* The image used */
+  background-image: url("./assets/coffeeparis.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* CSS for contact page */
+.btn-basic {
+	color: black;
+	border: 1px solid black;
+}
+
+#nora {
+	max-width: 250px;
+	margin: 10px;
+}
+.chat {
+	text-align: center;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+
+
+/* CSS for looks page  */
+
+.lookprev:hover {
+    filter: drop-shadow(16px 16px 10px grey);
+}
+
+.lookprev a img {
+    width: 80%;
+}
+
+/* Look page CSS */
+.lookpage {
+	position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+
+}
+.lookcontent {
+	padding: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.lookpage:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    /* background-image: url('./assets/guell.jpg'); */
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+/* .look img{
+	max-width: 400px;
+} */
+
+.look h4, p, Image {
+    text-align: center;
+}
+
+.lookthumbnails img {
+    max-width: 100px;
+}
+
+
+.lookthumbnails a:hover{
+	filter: drop-shadow(16px 16px 10px white);
+}
+
+
+/* 
+
+.look2page:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    background-image: url('./assets/coffeeparis.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    filter: brightness(50%);
+}
+
+
+.look3page:before{
+	content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('./assets/ams2.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+} */
