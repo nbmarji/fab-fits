@@ -10,7 +10,7 @@ import {HashRouter, BrowserRouter as Router, Route} from "react-router-dom";
 class App extends React.Component {
   render() {
     return (
-      <HashRouter>
+      <HashRouter basename='/'>
       <Router>
        <Route exact path="/" component={Homepage} />
        <Route exact path = "/contact" component={Contact}/>
