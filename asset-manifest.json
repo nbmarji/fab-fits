@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "https://nbmarji.github.io/Fab-Fits/static/css/main.a25e6a2b.chunk.css",
-    "main.js": "https://nbmarji.github.io/Fab-Fits/static/js/main.88d048b1.chunk.js",
-    "main.js.map": "https://nbmarji.github.io/Fab-Fits/static/js/main.88d048b1.chunk.js.map",
+    "main.js": "https://nbmarji.github.io/Fab-Fits/static/js/main.e38baa75.chunk.js",
+    "main.js.map": "https://nbmarji.github.io/Fab-Fits/static/js/main.e38baa75.chunk.js.map",
     "runtime-main.js": "https://nbmarji.github.io/Fab-Fits/static/js/runtime-main.193ba8bc.js",
     "runtime-main.js.map": "https://nbmarji.github.io/Fab-Fits/static/js/runtime-main.193ba8bc.js.map",
-    "static/js/2.b1df6338.chunk.js": "https://nbmarji.github.io/Fab-Fits/static/js/2.b1df6338.chunk.js",
-    "static/js/2.b1df6338.chunk.js.map": "https://nbmarji.github.io/Fab-Fits/static/js/2.b1df6338.chunk.js.map",
+    "static/js/2.65a8d74c.chunk.js": "https://nbmarji.github.io/Fab-Fits/static/js/2.65a8d74c.chunk.js",
+    "static/js/2.65a8d74c.chunk.js.map": "https://nbmarji.github.io/Fab-Fits/static/js/2.65a8d74c.chunk.js.map",
     "static/js/3.aeb5bc2d.chunk.js": "https://nbmarji.github.io/Fab-Fits/static/js/3.aeb5bc2d.chunk.js",
     "static/js/3.aeb5bc2d.chunk.js.map": "https://nbmarji.github.io/Fab-Fits/static/js/3.aeb5bc2d.chunk.js.map",
     "index.html": "https://nbmarji.github.io/Fab-Fits/index.html",
     "static/css/main.a25e6a2b.chunk.css.map": "https://nbmarji.github.io/Fab-Fits/static/css/main.a25e6a2b.chunk.css.map",
-    "static/js/2.b1df6338.chunk.js.LICENSE.txt": "https://nbmarji.github.io/Fab-Fits/static/js/2.b1df6338.chunk.js.LICENSE.txt",
+    "static/js/2.65a8d74c.chunk.js.LICENSE.txt": "https://nbmarji.github.io/Fab-Fits/static/js/2.65a8d74c.chunk.js.LICENSE.txt",
     "static/media/ams3.4ded4ee7.jpg": "https://nbmarji.github.io/Fab-Fits/static/media/ams3.4ded4ee7.jpg",
     "static/media/beret.0980e636.png": "https://nbmarji.github.io/Fab-Fits/static/media/beret.0980e636.png",
     "static/media/blackbooties.3189e68a.png": "https://nbmarji.github.io/Fab-Fits/static/media/blackbooties.3189e68a.png",
@@ -42,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.193ba8bc.js",
-    "static/js/2.b1df6338.chunk.js",
+    "static/js/2.65a8d74c.chunk.js",
     "static/css/main.a25e6a2b.chunk.css",
-    "static/js/main.88d048b1.chunk.js"
+    "static/js/main.e38baa75.chunk.js"
   ]
 }
